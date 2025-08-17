@@ -43,6 +43,7 @@ public class PHA_M1_Q10 {
         else {
             System.out.println("Sorry you have failed :( ");
         }
+        scanner.close();
 
 
     }
