@@ -1,7 +1,7 @@
 package Module2;
 import java.util.Scanner;
 
-public class Question4 {
+public class PHA_M2_Q4 {
      public static void main(String[] args){
          Scanner scanner = new Scanner(System.in);
          System.out.print("Enter Order ID : ");
