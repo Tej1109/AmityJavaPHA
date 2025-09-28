@@ -14,7 +14,6 @@ public class Department {
     void addProfessor(Professor p){
         this.professors[count] = p;
         this.count += 1;
-
     }
 
     @Override

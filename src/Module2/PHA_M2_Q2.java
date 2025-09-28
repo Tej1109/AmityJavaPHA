@@ -25,10 +25,8 @@ public class PHA_M2_Q2 {
         }
         System.out.print("Do you want to continue : Yes/No ");
         choice = scanner.nextLine();
-        }while (!choice.equalsIgnoreCase("No"));
+        }while (choice.toUpperCase().charAt(0) != 'N');
         System.out.println("Thanks for using our program!");
-
-
 
     }
 }

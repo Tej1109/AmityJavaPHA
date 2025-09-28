@@ -12,20 +12,17 @@ abstract class Flight {
     }
 
     String getFlightNumber(){
-        return this.flightNumber;
-    }
+        return this.flightNumber;}
 
     String getAirline(){
-        return  this.airline;
-    }
-
+        return  this.airline;}
     Double getFare(){
-        return  this.fare;
-    }
+        return  this.fare;}
 
     @Override
     public String toString(){
-        return "Flight No. : "+ this.flightNumber + " Airline : " + this.airline + " Fare : " + this.calculateFare();
+        return "Flight No. : "+ this.flightNumber + " Airline : " + this.airline + " Fare : " +
+                this.calculateFare();
     }
     abstract double calculateFare();
 }

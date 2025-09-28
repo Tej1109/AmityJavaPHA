@@ -7,7 +7,7 @@ public class PHA_M2_Q1 {
         System.out.println("Enter the Department details (deptName,hodName)  : ");
         String[] dept_Details  =  scanner.nextLine().split(",");
 
-        Department dept = new Department(dept_Details[0],dept_Details[1]);
+        Department dept = new Department(dept_Details[0],dept_Details[1]); //department init
         System.out.println("Enter the number of professors : ");
         int num_profs  = scanner.nextInt();
         scanner.nextLine();

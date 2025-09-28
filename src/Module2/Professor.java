@@ -11,7 +11,8 @@ public class Professor {
     }
 
     String getDetails(){
-        return "Name : " +this.name +", EmployeeID :  " + this.employeeId + ", Specialization : " + this.specialization;
+        return "Name : " +this.name +", EmployeeID :  " + this.employeeId + ", Specialization : " +
+                this.specialization;
     }
     @Override
     public String toString(){
