@@ -17,11 +17,9 @@ public class Order {
 
     @Override
     public  String toString(){
-        System.out.println("Order ID : "  + this.orderId);
-        System.out.println("Products : ");
+        String temp = "";
         for (Product prod : products){
-            System.out.println(prod);
+            temp += prod.toString()+"\n";
         }
-        System.out.println("Total : " + calculateTotal());
-    return  "";}
-}
+    return  "Order ID :"  + this.orderId + "\n" + "Products : \n" + temp + "Total : " + calculateTotal();
+}}

@@ -10,6 +10,7 @@ public class Surgeon extends  Doctor{
 
     @Override
     public String toString(){
-        return "Name: "  + this.name + "\nAge : " + this.age + "\nSpecialization :" + this.specialization + "\nSurgery Type : " + this.surgeryType;
+        return "Name: "  + this.name + "\nAge : " + this.age + "\nSpecialization :" + this.specialization +
+                "\nSurgery Type : " + this.surgeryType;
     }
 }

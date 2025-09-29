@@ -9,7 +9,8 @@ public class PHA_M2_Q11 {
         String[] studentDetails = scanner.nextLine().split(",");
         String[] roomDetails = scanner.nextLine().split(",");
 
-        Student student = new Student(studentDetails[0],studentDetails[2],Integer.parseInt(studentDetails[1]), new Room(roomDetails[0],roomDetails[1],roomDetails[2]));
+        Student student = new Student(studentDetails[0],studentDetails[2],Integer.parseInt(studentDetails[1]),
+                new Room(roomDetails[0],roomDetails[1],roomDetails[2]));
         System.out.println(student);
     }
 }

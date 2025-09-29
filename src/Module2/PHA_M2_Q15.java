@@ -9,7 +9,8 @@ public class PHA_M2_Q15 {
         String[]  citizenDetails = scanner.nextLine().split(",");
         String[]  passportDetails = scanner.nextLine().split(",");
 
-        Citizen citizen = new Citizen(citizenDetails[0],citizenDetails[1],citizenDetails[2],passportDetails[0],passportDetails[1],passportDetails[2]);
+        Citizen citizen = new Citizen(citizenDetails[0],citizenDetails[1],
+                citizenDetails[2],passportDetails[0],passportDetails[1],passportDetails[2]);
         System.out.println(citizen);
     }
 }

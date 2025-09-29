@@ -8,6 +8,7 @@ public class Car extends Vehicle {
 
     @Override
     public  String  toString(){
-        return "Car " + this.regNo + " " +  this.brand + " Rent: " +  this.baseRate;
+        return "Car " + this.regNo + " " +  this.brand + " Rent: " +
+                this.baseRate;
     }
 }

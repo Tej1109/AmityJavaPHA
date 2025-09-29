@@ -21,6 +21,5 @@ public class PHA_M2_Q12 {
         else{
             System.out.println("Wrong Input Format");
         }
-
     }
 }
