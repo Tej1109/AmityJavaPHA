@@ -1,6 +1,5 @@
 package Module4;
 
-import java.security.cert.TrustAnchor;
 import java.util.LinkedHashSet;
 import java.util.Scanner;
 
@@ -9,10 +8,13 @@ public class PHA_M4_Q5 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         int choice = 0;
-         while (choice!=2){
+         while (choice!=1){
              System.out.print("Enroll : ");
              String name = scanner.nextLine();
-             System.out.print("Choice: ");
+             if (enrolled.contains(name)){
+                 System.out.println(name+" is already Enrolled");
+             }
+             System.out.print("Do you want to quit?: ");
              choice = scanner.nextInt();
              scanner.nextLine();
              addEnrolledStudent(name);

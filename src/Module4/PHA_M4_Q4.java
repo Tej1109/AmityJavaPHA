@@ -8,7 +8,7 @@ public class PHA_M4_Q4   {
     public static void main(String[] args){
         int choice;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("1. Add Product\n" +
+        System.out.println("1. Add Product ID\n" +
                 "2. Update Stock\n" +
                 "3. Display Inventory\n" +
                 "4. Exit");
@@ -18,7 +18,7 @@ public class PHA_M4_Q4   {
 
             switch (choice){
                 case 1 -> {
-                    System.out.println("Enter Product: ");
+                    System.out.println("Enter Product ID: ");
                     int prod = scanner.nextInt();
                     System.out.println("Enter Stock");
                     int stock = scanner.nextInt();
@@ -26,7 +26,7 @@ public class PHA_M4_Q4   {
                     System.out.println("Added product successfully!");
                 }
                 case 2 -> {
-                    System.out.println("Enter Product");
+                    System.out.println("Enter Product ID");
                     int prod = scanner.nextInt();
                     if (products.containsKey(prod)) {
                         System.out.println("Enter Updated Stock");
@@ -45,7 +45,7 @@ public class PHA_M4_Q4   {
 
                     while (iterator.hasNext()){
                         Map.Entry<Integer,Integer> entry = iterator.next();
-                        System.out.println("Product_name : " + entry.getKey() +
+                        System.out.println("Product_id : " + entry.getKey() +
                                 "     Stock : " + entry.getValue());
                     }
                 }

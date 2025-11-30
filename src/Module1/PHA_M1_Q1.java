@@ -1,9 +1,4 @@
-package Module1;/*
-Task: Write a program that declares variables for a student’s name, roll number, and marks in three subjects.
- Assign values and print them. Ensure all variable names follow Java identifier rules.
- */
-
-
+package Module1;
 import  java.util.Scanner;
 public class PHA_M1_Q1 {
     public static void main(String[] args){

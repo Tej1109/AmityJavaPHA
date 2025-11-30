@@ -10,12 +10,11 @@ public class PHA_M1_Q9 {
         int[] arr = new int[10];
         int max = 0 ;
         for (int i = 0; i < 10 ; i++){
-            System.out.printf("Enter element #%d",i+1);
+            System.out.printf("Enter element #%d ",i+1);
             arr[i] = scanner.nextInt();
         }
         max = arr[0];
         for (int num: arr){
-            System.out.println(num);
             if (num > max){
                 max = num;}
         }

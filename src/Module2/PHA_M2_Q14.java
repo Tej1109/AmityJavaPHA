@@ -6,9 +6,9 @@ public class PHA_M2_Q14 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter Account details: ");
-        String[] reservationDetails = scanner.nextLine().split(",");
-        Account account = new Account(Integer.parseInt(reservationDetails[0]),reservationDetails[1],
-                Double.parseDouble(reservationDetails[2]));
+        String[] bankingDetails = scanner.nextLine().split(",");
+        Account account = new Account(Integer.parseInt(bankingDetails[0]),bankingDetails[1],
+                Double.parseDouble(bankingDetails[2]));
         String choice;
         System.out.println("Welcome to our Banking Program\n Choose withdraw for withdrawing\n" +
                 " Deposit for Deposit \n Details to get Details\n Balance for balance info");
